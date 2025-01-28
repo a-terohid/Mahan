@@ -81,7 +81,7 @@ const Homepage = () => {
     return (
         <div className=' container flex flex-col  items-center justify-center -mt-5  ' >
             <div className="bg-light_background/2 px-10 py-9 rounded-2xl" >
-                <h1 className=" font-bold mx-9 text-lg" >please enter your data:</h1>
+                <h1 className=" font-bold mr-16 " >please enter your data:</h1>
                 <div className="flex flex-col gap-y-3 mt-5" >
                 <Input 
                         value={studyHoure}
