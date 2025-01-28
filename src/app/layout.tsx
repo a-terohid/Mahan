@@ -10,11 +10,9 @@ export default function RootLayout({ children }: Readonly<{children: React.React
     <html lang="en" className={ FONTS }>
       <body>
         <NextAuthProvider>
-          <ThemeProvider attribute="class">
             <Layout>
               {children}
             </Layout>
-          </ThemeProvider>
         </NextAuthProvider>
       </body>
     </html>
