@@ -54,13 +54,13 @@ const Homepage = () => {
     if (+studyHoure <= 300) {
         const studyPart = Math.floor(+studyHoure / 15);
         const studyRemainder = (+studyHoure % 15) * (100 / 15) / 100;
-        totalScore += studyPart * 3.5 + studyRemainder * 3.5;
+        totalScore += studyPart * 10.5 + studyRemainder * 10.5;
       } else {
         const firstPart = Math.floor(300 / 15);
         const extraHours = +studyHoure - 300;
         const extraPart = Math.floor(extraHours / 15);
         const extraRemainder = (extraHours % 15) * (100 / 15) / 100;
-        totalScore += firstPart * 3.5 + extraPart * 5 + extraRemainder * 5;
+        totalScore += firstPart * 10.5 + extraPart * 15 + extraRemainder * 15;
       }
     
         // به‌روزرسانی state
